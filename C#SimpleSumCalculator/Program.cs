@@ -10,6 +10,6 @@ int secondoNumero = int.Parse(Console.ReadLine());
 //sommo i due numeri
 int somma = primoNumero + secondoNumero;
 
-Console.WriteLine(somma);
+Console.WriteLine($"La somma di {primoNumero} + {secondoNumero} è = {somma}");
 
 Console.ReadKey();
