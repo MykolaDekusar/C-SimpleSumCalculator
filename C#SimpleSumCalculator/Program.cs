@@ -25,7 +25,7 @@ double quartoNumero = double.Parse(Console.ReadLine());
 //sommo i due numeri
 double sommaDue = terzoNumero + quartoNumero;
 
-Console.WriteLine($"La somma di {terzoNumero} + {quartoNumero} è = {sommaDue}");
+Console.WriteLine($"La somma di {terzoNumero} + {quartoNumero} è = {Math.Round(sommaDue, 2)}");
 
 
 Console.ReadKey();
